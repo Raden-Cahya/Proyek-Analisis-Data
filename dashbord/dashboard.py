@@ -3,9 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-orders_df = pd.read_csv("data", "orders_dataset.csv")
-payments_df = pd.read_csv("data", "order_payments_dataset.csv")
-items_df = pd.read_csv("data", "order_items_dataset.csv")
+orders_df = pd.read_csv("data/orders_dataset.csv")
+payments_df = pd.read_csv("data/order_payments_dataset.csv")
+items_df = pd.read_csv("data/order_items_dataset.csv")
 
 st.sidebar.title("E-Commerce Dashboard")
 option = st.sidebar.selectbox("Pilih Analisis:", ["Metode Pembayaran", "Pola Penjualan Bulanan"])
